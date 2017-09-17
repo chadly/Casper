@@ -379,6 +379,44 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 40px 0 0 0;
 }
 
+.post-feed-oneline {
+    display: block;
+    background: #f4f8fb;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 25px;
+    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+}
+
+.post-feed-oneline-inner {
+    display: inline-block;
+    text-align: left;
+    margin: 2em 0;
+}
+
+.post-oneline {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.post-oneline time {
+    float: left;
+    color: var(--midgrey);
+}
+
+.post-oneline a {
+    margin-left: 7em;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.post-oneline a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
 .post-card {
     flex: 1 1 300px;
     display: flex;

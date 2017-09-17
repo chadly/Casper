@@ -47,6 +47,9 @@
         "postcss-custom-properties": "5.0.1",
         "postcss-easy-import": "1.0.1"
     },
+    "scripts": {
+        "build": "gulp"
+    },
     "config": {
         "posts_per_page": 25
     }
